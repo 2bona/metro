@@ -150,20 +150,18 @@
             label="Email"
             required
           ></v-text-field>
+            <v-select
+          :items="items"
+          filled outlined validate-on-blur
+            v-model="business_category"
+            label="Business category (Optional)"
+        ></v-select>
            <v-text-field
-            :rules="stringRules"
             v-model="business_name"
            outlined validate-on-blur filled
             label="Business name (Optional)"
             required
           ></v-text-field>
-            <v-select
-          :items="items"
-          filled outlined validate-on-blur
-            :rules="stringRules"
-            v-model="business_category"
-            label="Business category (Optional)"
-        ></v-select>
           <v-btn :loading="loading" :color="'white'" @click="submit()" block x-large  class="py-9 grey--text text--darken-4 mb-12 text-capitalize font-weight-black">submit</v-btn>
 
       </v-form>
