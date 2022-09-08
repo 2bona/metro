@@ -63,7 +63,7 @@
 <v-avatar tile height="100%" width="100%"><v-img :src="n.image"></v-img></v-avatar>
   </v-flex>
   <v-flex :class="i == 1 ?'order-1 pr-4':'pl-4'" class="" xs7 sm8>
-    <h2 class="" :class="i == 1?'white--text ':''" >{{n.name}}</h2>
+    <h2 class="font-weight-medium " :class="i == 1?'grey--text text--lighten-3':'grey--text text--darken-4'" >{{n.name}}</h2>
     <p :class="i == 1?'grey--text text--lighten-0 ':'grey--text text--darken-2'"  class="py-8 ">{{n.desc}}</p>
 
   </v-flex>
