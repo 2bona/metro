@@ -25,7 +25,7 @@
      <v-flex xs6 class="text-left"> 
        <p class="grey--text text--lighten-5 font-weight-medium"><v-icon size="16" class="pb-1" color="white">mdi-map-marker</v-icon> VENUE</p> </v-flex>
      <v-flex class="caption text-right grey--text" xs6>
-        The Gem House, 5B Parakou St, Wuse 904101,Abuja.
+        The Gem House, 5B Parakou St, Wuse 904101, Abuja.
         </v-flex>
    </v-layout>
    <v-layout class="mt-4 mb-12">
@@ -195,17 +195,17 @@ business_category: '',
         {
           name: "Food & Wine Tasting",
           image: "https://images.unsplash.com/photo-1558346489-19413928158b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-          desc: "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fuga magni.",
+          desc: "Taste amazing meals from top Abuja chefs for FREE, buy only what you like. ",
         },
         {
           name: "Networking",
           image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-          desc: "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fuga magni.",
+          desc: "Connect with High Value Men and Women, share ideas and experiences and increase your social currency",
         },
         {
           name: "Speed Dating",
           image: "https://images.unsplash.com/photo-1571771826307-98d0d0999028?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-          desc: "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fuga magni.",
+          desc: "Fun, Quick & Engaging way to meet people (young CEO's & Founders) for the first time and have meaningful interaction.",
         }
       ]
 
