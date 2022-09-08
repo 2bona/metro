@@ -30,7 +30,7 @@
    </v-layout>
    <v-layout class="mt-4 mb-12">
      <v-flex xs6 class="text-left"> 
-       <p class="grey--text text--lighten-5 font-weight-medium "><v-icon size="16" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
+       <p class="grey--text text--lighten-5 font-weight-medium "><v-icon size="16" class="pb-1" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
      <v-flex class="caption text-right grey--text " xs6>
         25th September,<br> 12:00pm - 7pm.
         </v-flex>

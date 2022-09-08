@@ -45,7 +45,20 @@
 </ShareNetwork>
       </div>
                <p @click="$router.push('/')" class="text-center grey--text text-underline font-weight-bold body-2 mt-12 my-4" id="mont">Back</p>
-
+  <v-layout class="mt-12">
+     <v-flex xs6 class="text-left"> 
+       <p class="grey--text text--lighten-5 font-weight-medium"><v-icon size="16" class="pb-1" color="white">mdi-map-marker</v-icon> VENUE</p> </v-flex>
+     <v-flex class="caption text-right grey--text" xs6>
+        The Gem House, 5B Parakou St, Wuse 904101, Abuja.
+        </v-flex>
+   </v-layout>
+   <v-layout class="mt-4 mb-12">
+     <v-flex xs6 class="text-left"> 
+       <p class="grey--text text--lighten-5 font-weight-medium "><v-icon size="16" class="pb-1" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
+     <v-flex class="caption text-right grey--text " xs6>
+        25th September,<br> 12:00pm - 7pm.
+        </v-flex>
+   </v-layout>
    <div>
      </div>
   </v-container>
