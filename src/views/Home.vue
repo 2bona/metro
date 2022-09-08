@@ -5,7 +5,7 @@
   <v-container dark class="grey--text px-5 text-center">
     <v-layout >
       <v-flex xs5 class="d-flex justify-center align-center" sm5>
-    <v-avatar max-width="490px" tile width="100%" height="120"><v-img contain src="https://cdn.shopify.com/s/files/1/0133/3795/2320/products/Lacoste-Sticker-thermocollant-blanc_1200x1200.jpg?v=1553936753"></v-img></v-avatar>
+    <v-avatar max-width="490px" tile width="100%" height="120"><v-img  src="https://cdn.shopify.com/s/files/1/0133/3795/2320/products/Lacoste-Sticker-thermocollant-blanc_1200x1200.jpg?v=1553936753"></v-img></v-avatar>
       </v-flex>
       <v-flex xs2 class="d-flex justify-center align-center" sm2>
       <v-icon size color="white">mdi-arrow-projectile-multiple</v-icon>
