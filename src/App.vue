@@ -9,7 +9,7 @@
 </template>
 <style>
 .v-btn--outlined {
-    border: 2px solid currentColor!important;
+    border: 1.9px solid currentColor!important;
 }
 </style>
 <script>

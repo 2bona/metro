@@ -4,34 +4,33 @@
 
   <v-container dark class="grey--text px-5 text-center">
     <v-layout >
-      <v-flex xs5 class="d-flex justify-center align-center" sm4>
-    <v-avatar max-width="300px" tile width="100%" height="150"><v-img src="https://cdn.shopify.com/s/files/1/0133/3795/2320/products/Lacoste-Sticker-thermocollant-blanc_1200x1200.jpg?v=1553936753"></v-img></v-avatar>
-
+      <v-flex xs5 class="d-flex justify-center align-center" sm5>
+    <v-avatar max-width="490px" tile width="100%" height="120"><v-img contain src="https://cdn.shopify.com/s/files/1/0133/3795/2320/products/Lacoste-Sticker-thermocollant-blanc_1200x1200.jpg?v=1553936753"></v-img></v-avatar>
       </v-flex>
-      <v-flex xs2 class="d-flex justify-center align-center" sm4>
+      <v-flex xs2 class="d-flex justify-center align-center" sm2>
       <v-icon size color="white">mdi-arrow-projectile-multiple</v-icon>
       
       </v-flex>
-      <v-flex xs5 class="d-flex justify-center align-center" sm4>
-    <v-avatar class="mt-3" max-width="200px" tile width="100%" height="auto"><v-img src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png"></v-img></v-avatar>
+      <v-flex xs5 class="d-flex justify-center align-center" sm5>
+    <v-avatar class="mt-3" max-width="180px" tile width="100%" height="auto"><v-img contain src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png"></v-img></v-avatar>
       </v-flex>
     </v-layout>
 
   <p class="grey--text">Presents</p>
 
-  <h1 class="white--text font-weight-black grey--text text--lighten-5 text-uppercase">Metro Connect</h1>
-  <p class="my-6 grey--text text--lighten-3 ">A Networking Event for Founders, Creatives and Yound CEO's in Abuja.</p>
+  <h1 class="white--text font-weight-regular grey--text text--lighten-5 text-uppercase">Metro Connect</h1>
+  <p class="my-6 grey--text text--lighten-2 ">A Networking Event for Founders, Creatives and Yound CEO's in Abuja.</p>
    
    <v-layout class="mt-12">
      <v-flex xs6 class="text-left"> 
-       <p class="grey--text text--lighten-5 font-weight-black"><v-icon size="16" class="pb-1" color="white">mdi-map-marker</v-icon> VENUE</p> </v-flex>
+       <p class="grey--text text--lighten-5 font-weight-medium"><v-icon size="16" class="pb-1" color="white">mdi-map-marker</v-icon> VENUE</p> </v-flex>
      <v-flex class="caption text-right grey--text" xs6>
         The Gem House, 5B Parakou St, Wuse 904101,Abuja.
         </v-flex>
    </v-layout>
    <v-layout class="mt-4 mb-12">
      <v-flex xs6 class="text-left"> 
-       <p class="grey--text text--lighten-5 font-weight-black "><v-icon size="16" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
+       <p class="grey--text text--lighten-5 font-weight-medium "><v-icon size="16" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
      <v-flex class="caption text-right grey--text " xs6>
         25th September,<br> 12:00pm - 7pm.
         </v-flex>
@@ -60,15 +59,15 @@
 <v-avatar tile height="100%" width="100%"><v-img :src="n.image"></v-img></v-avatar>
   </v-flex>
   <v-flex :class="i == 1 ?'order-1 pr-4':'pl-4'" class="" xs7 sm8>
-    <h2 class="" :class="i == 1?'white--text ':''" >{{n.name}}</h2>
+    <h2 class="font-weight-medium " :class="i == 1?'grey--text text--lighten-3':'grey--text text--darken-4'" >{{n.name}}</h2>
     <p :class="i == 1?'grey--text text--lighten-0 ':'grey--text text--darken-2'"  class="py-8 ">{{n.desc}}</p>
       <v-layout wrap class="mt-0">
      <v-flex xs12 class="mb-2 text-left"> 
 <v-btn block           @click="sheet = !sheet"
- x-large class=" text-capitalize font-weight-black"  outlined :dark="i==1" color=" lighten-1">sign up</v-btn>
+ large class=" text-capitalize body-2 font-weight-black"  outlined :dark="i==1" :color="i==1?'lighten-1': 'grey darken-4'">sign up</v-btn>
 </v-flex>
      <v-flex class="caption text-right mt-2 grey--text text--lighten-3" xs12>
-<v-btn block class=" text-capitalize font-weight-black" x-large dark>Get ticket</v-btn>        </v-flex>
+<v-btn block class=" text-capitalize body-2 font-weight-black" large dark>Get ticket</v-btn>        </v-flex>
    </v-layout>
   </v-flex>
 </v-layout>
