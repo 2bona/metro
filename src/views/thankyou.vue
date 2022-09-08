@@ -30,8 +30,8 @@
         <ShareNetwork
     network="whatsapp"
     :url="('https://timely-rugelach-6a42db.netlify.app/#/')"
-    :title="'Sign up for Metro Connect'"
-    :description="'Click the link to chill with your fellow young CEOs and Founders crushing it in Abuja.'"
+    :title="'Sign up for Metro Connect 🚀'"
+    :description="'Click the link to chill 😎 with your fellow young CEOs 👨‍💼👩‍💼 and Founders 💎 crushing it in Abuja 🇳🇬.'"
     hashtags="https://timely-rugelach-6a42db.netlify.app/#/"
           style=" text-decoration:none"
   >
