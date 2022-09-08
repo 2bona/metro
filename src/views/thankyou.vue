@@ -19,7 +19,7 @@
 
   <p class="grey--text"></p>
 
-  <h1 class="white--text  font-weight-medium grey--text text--lighten-5 text-uppercase">Thank you for signing up!</h1>
+  <h1 class="white--text  font-weight-regular grey--text text--lighten-5 text-uppercase">Thank you for signing up!</h1>
   <p class="my-6 grey--text text--lighten-3 ">You will recieve relevant updates in your email in due time.</p>
    
    <div
