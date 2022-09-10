@@ -11,6 +11,10 @@
 .v-btn--outlined {
     border: 1.9px solid currentColor!important;
 }
+.jost{
+  font-family: 'Jost', sans-serif!important;
+
+}
 </style>
 <script>
 
