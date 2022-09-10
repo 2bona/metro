@@ -56,7 +56,7 @@
 
 <v-layout class="py-12" wrap>
   <v-flex style="" :class="i == 1 ?'order-2':''" class="pa-0" xs5 sm4>
-<v-avatar tile height="100%" width="100%"><v-img :src="n.image"></v-img></v-avatar>
+<v-avatar tile height="100%" width="100%"><v-img eager :src="n.image"></v-img></v-avatar>
   </v-flex>
   <v-flex :class="i == 1 ?'order-1 pr-4':'pl-4'" class="" xs7 sm8>
     <h2 class="font-weight-medium " :class="i == 1?'grey--text text--lighten-3':'grey--text text--darken-4'" >{{n.name}}</h2>
