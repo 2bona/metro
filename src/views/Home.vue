@@ -5,14 +5,14 @@
   <v-container dark class="grey--text px-5 text-center">
     <v-layout class="mb-5">
       <v-flex xs5 class="d-flex justify-center align-center" sm5>
-    <v-avatar max-width="490px" tile width="100%" height="auto"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/v1662797953/echologo_white_png_r9i1dx.png"></v-img></v-avatar>
+    <v-avatar max-width="490px" tile width="100%" height="auto"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_300/v1662797953/echologo_white_png_r9i1dx.png"></v-img></v-avatar>
       </v-flex>
       <v-flex xs2 class="d-flex justify-center align-center" sm2>
       <v-icon size color="white">mdi-arrow-projectile-multiple</v-icon>
       
       </v-flex>
       <v-flex xs5 class="d-flex justify-center align-center" sm5>
-    <v-avatar class="mt-3" max-width="180px" tile width="100%" height="auto"><v-img contain src="https://res.cloudinary.com/crushcontest-com/image/upload/v1662799583/AMF_LOGO1_ojob3n.png"></v-img></v-avatar>
+    <v-avatar class="mt-3" max-width="180px" tile width="100%" height="auto"><v-img contain src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_300/v1662799583/AMF_LOGO1_ojob3n.png"></v-img></v-avatar>
       </v-flex>
     </v-layout>
 
