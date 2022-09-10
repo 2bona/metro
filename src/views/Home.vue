@@ -5,14 +5,14 @@
   <v-container dark class="grey--text px-5 text-center">
     <v-layout class="mb-5">
       <v-flex xs5 class="d-flex justify-center align-center" sm5>
-    <v-avatar max-width="490px" tile width="100%" height="auto"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_300/v1662797953/echologo_white_png_r9i1dx.png"></v-img></v-avatar>
+    <v-avatar max-width="490px" tile width="100%" height="auto"><v-img eager src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_300/v1662797953/echologo_white_png_r9i1dx.png"></v-img></v-avatar>
       </v-flex>
       <v-flex xs2 class="d-flex justify-center align-center" sm2>
       <v-icon size color="white">mdi-arrow-projectile-multiple</v-icon>
       
       </v-flex>
       <v-flex xs5 class="d-flex justify-center align-center" sm5>
-    <v-avatar class="mt-3" max-width="180px" tile width="100%" height="auto"><v-img contain src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_300/v1662799583/AMF_LOGO1_ojob3n.png"></v-img></v-avatar>
+    <v-avatar class="mt-3" max-width="180px" tile width="100%" height="auto"><v-img eager contain src="https://res.cloudinary.com/crushcontest-com/image/upload/c_fit,w_300/v1662799583/AMF_LOGO1_ojob3n.png"></v-img></v-avatar>
       </v-flex>
     </v-layout>
 
@@ -35,12 +35,12 @@
         25th September,<br> 12:00pm - 7pm.
         </v-flex>
    </v-layout>
-   <v-layout wrap class="mt-8">
+   <v-layout wrap class="mt-4">
      <v-flex xs12 class="my-4 text-left"> 
-<v-btn @click="sheet = true" block x-large class="py-9 text-capitalize font-weight-black" outlined  color="white lighten-1">sign up</v-btn>
+<v-btn @click="sheet = true" block x-large class="py-8 text-capitalize font-weight-black" outlined  color="white lighten-1">sign up</v-btn>
 </v-flex>
      <v-flex class="caption text-right  mb-12 grey--text text--lighten-3" xs12>
-<v-btn block x-large class="py-9 text-capitalize  font-weight-black" >Get ticket</v-btn>        </v-flex>
+<v-btn block x-large class="py-8 text-capitalize  font-weight-black" >Get ticket</v-btn>        </v-flex>
    </v-layout>
    <div>
      </div>
@@ -79,7 +79,7 @@
     <v-flex class="body-2 d-flex justify-center align-center pa-2" xs12 >
         <p onclick="window.location.href = 'https://edeyapp.com';"  class="caption text-capitalized text-center mb-0 font-weight-bold grey--text text--darken-3">Website Sponsored by  <span>
             <v-avatar width="100" height="auto" tile class="mb-1  mx-auto">
-    <v-img  src="https://res.cloudinary.com/payhospi/image/upload/v1643977448/clients/E_dey_app_19.5_by_20_1_ayherr.jpg"></v-img>
+    <v-img eager src="https://res.cloudinary.com/payhospi/image/upload/v1643977448/clients/E_dey_app_19.5_by_20_1_ayherr.jpg"></v-img>
 </v-avatar>
 </span>
 </p>
@@ -142,7 +142,7 @@
             required
           ></v-text-field>
            <v-text-field
-            :rules="stringRules"
+            
             v-model="business_name"
            outlined validate-on-blur filled
             label="Business name (Optional)"
@@ -151,7 +151,7 @@
             <v-select
           :items="items"
           filled outlined validate-on-blur
-            :rules="stringRules"
+            
             v-model="business_category"
             label="Business category (Optional)"
         ></v-select>
@@ -189,7 +189,7 @@ business_category: '',
       ],
    stringRules: [
         v => !!v || 'This input is required',
-        v => (v && v.length >= 2) || 'Input must be less than 10 characters',
+        v => (v && v.length >= 2) || 'Input must be more than 2 characters',
       ],
       sections: [
         {
