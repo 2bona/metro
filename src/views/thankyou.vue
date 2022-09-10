@@ -3,7 +3,7 @@
 <div style="height:; width:100%" class=" black">
 
   <v-container dark class="grey--text px-5 text-center">
-  <v-layout class="mb-5">
+  <v-layout class="my-9">
       <v-flex xs5 class="d-flex justify-center align-center" sm5>
     <v-avatar max-width="490px" tile width="100%" height="auto"><v-img  src="https://res.cloudinary.com/crushcontest-com/image/upload/v1662797953/echologo_white_png_r9i1dx.png"></v-img></v-avatar>
       </v-flex>
@@ -18,7 +18,7 @@
 
   <p class="grey--text"></p>
 
-  <h1 class="white--text  font-weight-regular grey--text text--lighten-5 text-uppercase">Thank you for signing up!</h1>
+  <h1 class="white--text jost font-weight-regular grey--text text--lighten-5 text-uppercase">Thank you for signing up!</h1>
   <p class="my-6 grey--text text--lighten-3 ">You will recieve relevant updates in your email in due time.</p>
    
    <div
@@ -39,21 +39,21 @@
           x-large
           rounded id="mont"
           color="white"
-          class="mx-auto elevation-20 grey--text text--darken-3 pa-8 font-weight-black"
+          class="jost mx-auto elevation-20 grey--text text--darken-3 pa-8 font-weight-black"
           >share</v-btn>
 </ShareNetwork>
       </div>
                <p @click="$router.push('/')" class="text-center grey--text text-underline font-weight-bold body-2 mt-12 my-4" id="mont">Back</p>
   <v-layout class="mt-12">
      <v-flex xs6 class="text-left"> 
-       <p class="grey--text text--lighten-5 font-weight-medium"><v-icon size="16" class="pb-1" color="white">mdi-map-marker</v-icon> VENUE</p> </v-flex>
+       <p class="jost grey--text text--lighten-5 font-weight-medium"><v-icon size="16" class="pb-1" color="white">mdi-map-marker</v-icon> VENUE</p> </v-flex>
      <v-flex class="caption text-right grey--text" xs6>
         The Gem House, 5B Parakou St, Wuse 904101, Abuja.
         </v-flex>
    </v-layout>
    <v-layout class="mt-4 mb-12">
      <v-flex xs6 class="text-left"> 
-       <p class="grey--text text--lighten-5 font-weight-medium "><v-icon size="16" class="pb-1" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
+       <p class="jost grey--text text--lighten-5 font-weight-medium "><v-icon size="16" class="pb-1" color="white">mdi-clock-outline</v-icon> DATE</p> </v-flex>
      <v-flex class="caption text-right grey--text " xs6>
         25th September,<br> 12:00pm - 7pm.
         </v-flex>
@@ -62,11 +62,11 @@
      </div>
   </v-container>
 </div>
-<svg  style="position:relative; top:-2px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,186.7C840,181,960,107,1080,74.7C1200,43,1320,53,1380,58.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+<!-- <svg  style="position:relative; top:-2px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,186.7C840,181,960,107,1080,74.7C1200,43,1320,53,1380,58.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> -->
 <div :class="i == 1?'black ':'grey lighten-5'" v-for="(n,i) in sections" :key="i" style="height:; width:100%" class="pb-12">
  <!-- <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fafafa" fill-opacity="1" d="M0,0L48,42.7C96,85,192,171,288,202.7C384,235,480,213,576,208C672,203,768,213,864,181.3C960,149,1056,75,1152,42.7C1248,11,1344,21,1392,26.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg> -->
-<svg v-if="i == 1" style="position:relative; top:-2px;"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fafafa" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,117.3C384,117,480,139,576,138.7C672,139,768,117,864,138.7C960,160,1056,224,1152,218.7C1248,213,1344,139,1392,101.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-      <svg v-if="i == 2" style="position:relative; top:-2px;"   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,186.7C840,181,960,107,1080,74.7C1200,43,1320,53,1380,58.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+<!-- <svg v-if="i == 1" style="position:relative; top:-2px;"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fafafa" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,117.3C384,117,480,139,576,138.7C672,139,768,117,864,138.7C960,160,1056,224,1152,218.7C1248,213,1344,139,1392,101.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <svg v-if="i == 2" style="position:relative; top:-2px;"   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,112C480,128,600,192,720,186.7C840,181,960,107,1080,74.7C1200,43,1320,53,1380,58.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> -->
 
     <v-container  class="">
 
@@ -75,7 +75,7 @@
 <v-avatar tile height="100%" width="100%"><v-img :src="n.image"></v-img></v-avatar>
   </v-flex>
   <v-flex :class="i == 1 ?'order-1 pr-4':'pl-4'" class="" xs7 sm8>
-    <h2 class="font-weight-medium " :class="i == 1?'grey--text text--lighten-3':'grey--text text--darken-4'" >{{n.name}}</h2>
+    <h2 class="jost font-weight-medium " :class="i == 1?'grey--text text--lighten-3':'grey--text text--darken-4'" >{{n.name}}</h2>
     <p :class="i == 1?'grey--text text--lighten-0 ':'grey--text text--darken-2'"  class="py-8 ">{{n.desc}}</p>
 
   </v-flex>
@@ -120,7 +120,7 @@
         </v-btn>
       <v-form               @submit.prevent="submit()"
  ref="form">
-        <h2>Sign Up Form</h2>
+        <h2 class="jost">Sign Up Form</h2>
         <p class="px-12 mb-5 caption grey--text">Kindly fill the form with valid information and submit.</p>
            <v-text-field
             :rules="stringRules"
@@ -162,7 +162,7 @@
             label="Business name (Optional)"
             required
           ></v-text-field>
-          <v-btn :loading="loading" :color="'white'" @click="submit()" block x-large  class="py-9 grey--text text--darken-4 mb-12 text-capitalize font-weight-black">submit</v-btn>
+          <v-btn :loading="loading" :color="'white'" @click="submit()" block x-large  class="py-9 grey--text text--darken-4 mb-12 text-capitalize jost font-weight-black">submit</v-btn>
 
       </v-form>
       </v-sheet>
