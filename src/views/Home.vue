@@ -1,5 +1,5 @@
 <template>
-<div class="grey lighten-5">
+<div class="green lighten-5">
 <div style=":; width:100%" class=" black">
 
   <v-container  dark class="grey--text px-5 text-center">
@@ -63,7 +63,7 @@
 
 <v-layout class="py-12" wrap>
   <v-flex style="" :class="i == 1 ?'order-2':''" class="pa-0" xs5 sm4>
-<v-avatar tile height="100%" width="100%"><v-img eager :src="n.image"></v-img></v-avatar>
+<v-avatar :style="!(i == 0 || i == 2) ? '    box-shadow: 12px 16px #81c884': '    box-shadow: -12px 16px #232323'" tile height="100%" width="100%"><v-img eager :src="n.image"></v-img></v-avatar>
   </v-flex>
   <v-flex :class="i == 1 ?'order-1 pr-4':'pl-4'" class="" xs7 sm8>
     <h2 class="jost font-weight-medium " :class="i == 1?'grey--text text--lighten-3':'grey--text text--darken-4'" >{{n.name}}</h2>
@@ -88,7 +88,7 @@
     </v-container>
 
 </v-card>
-<v-layout  wrap class=" grey lighten-5 pb-3">
+<v-layout  wrap class=" green lighten-5 pb-3">
     <v-flex class="body-2 d-flex justify-center align-center pa-2" xs12 >
         <p onclick="window.location.href = 'https://edeyapp.com';"  class="caption text-capitalized text-center mb-0 font-weight-bold grey--text text--darken-3">Website Sponsored by  <span>
             <v-avatar width="100" height="auto" tile class="mb-1  mx-auto">
